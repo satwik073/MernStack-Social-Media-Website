@@ -3,13 +3,13 @@ const postCtrl = require('../controllers/postCtrl')
 const auth = require('../middleware/auth')
 
 router.route('/posts')
-    .post( postCtrl.createPost)
-    .get( postCtrl.getPosts)
+    .post(postCtrl.createPost)
+    .get(postCtrl.getPosts)
 
 router.route('/post/:id')
-    .patch( postCtrl.updatePost)
-    .get( postCtrl.getPost)
-    .delete( postCtrl.deletePost)
+    .patch(postCtrl.updatePost)
+    .get(postCtrl.getPost)
+    .delete(postCtrl.deletePost)
 
 router.patch('/post/:id/like', postCtrl.likePost)
 
