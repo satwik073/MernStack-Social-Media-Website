@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Borel&family=Crimson+Text&family=PT+Serif:wght@400;700&family=Poppins:ital,wght@0,600;1,100&family=Qwitcher+Grypen&family=Roboto:wght@700;900&family=Vidaloka&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Borel&family=Crimson+Text&family=DM+Sans:opsz,wght@9..40,400&family=PT+Serif:wght@400;700&family=Poppins:ital,wght@0,600;1,100&family=Qwitcher+Grypen&family=Roboto:wght@700;900&family=Vidaloka&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Borel&family=Crimson+Text&family=DM+Sans:opsz,wght@9..40,400;700&family=PT+Serif:wght@400;700&family=Poppins:ital,wght@0,600;1,100&family=Qwitcher+Grypen&family=Roboto:wght@100;700;100&family=Vidaloka&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap');
+.bookmark-btn {
+  transition: transform 0.3s ease; /* Adjust the duration and easing as needed */
+}
+
+/* Define a specific style when the post is saved */
+.saved-bookmark {
+  transform: scale(1.1); /* Adjust the scale or any other style you prefer */
+}
+.ComponentsWrapped {
+    max-height: 90vh;
+    overflow-y: auto;
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer 10+ */
+  }
+  
+  .ComponentsWrapped::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+  }
+.ComponentsWrappedFlex {
+    max-height: 37vh;
+    overflow-y: auto;
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer 10+ */
+  }
+  
+  .ComponentsWrappedFlex::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+  }
+.hideScroll {
+  
+    overflow-y: auto;
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer 10+ */
+  }
+  
+  .hideScroll::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+  }
+/* font-family: "DM Sans", sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+  .textFlex{
+    font-family: "Poppins", sans-serif;
+  }
+  .textFlexed{
+    font-family: "DM Sans", sans-serif;
+     font-weight: lighter;
+  }
+  .textFlexe{
+    font-family: "DM Sans", sans-serif;
+     
+  }
+
+  .blurred-background {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.096);
+    backdrop-filter: blur(4px); /* Adjust the blur value as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .blurred-background2 {
+  
+    backdrop-filter: blur(4px); /* Adjust the blur value as needed */
+    
+  }
